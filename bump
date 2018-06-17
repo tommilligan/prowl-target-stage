@@ -1,0 +1,7 @@
+#!/bin/sh
+# Commit all files with a current date comment, and push
+
+git add --all
+git commit -m "bump $(date -Iseconds)"
+git push
+
