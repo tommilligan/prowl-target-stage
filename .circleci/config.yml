@@ -11,7 +11,7 @@ jobs:
       - image: circleci/node:8.11.3-browsers
     steps:
       - checkout
-      - run: sleep 3s
+      - run: if (( RANDOM % 2 )); then false; fi
 workflows:
   version: 2
   build_and_test:
