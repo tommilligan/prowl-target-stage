@@ -7,7 +7,7 @@ targets:
   # Each type of PR has a seperate specification
   - id: catchall
     # Just comment on the PR instead of merging
-    dry_run: true
+    dry_run: false
     # PRs we are interested in
     stalk:
       paths:
