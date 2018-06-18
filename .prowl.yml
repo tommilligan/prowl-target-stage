@@ -2,20 +2,27 @@
 
 version: '0.1.0'
 
-pull_requests:
+targets:
+
+  # Each type of PR has a seperate specification
   - id: catchall
-    spec:
+    # Just comment on the PR instead of merging
+    dry_run: true
+    # PRs we are interested in
+    stalk:
       paths:
         - "**/*"
       base: master
-    constrain:
+    # Conditions to be met
+    pounce:
       reviewers: []
+
   - id: markdown
-    spec:
+    stalk:
       paths:
         - "**/*.md"
       base: master
-    constrain:
+    pounce:
       reviewers:
         - tommilligan
         - tommilligan-plutoflume
