@@ -18,6 +18,8 @@ targets:
       reviewers: []
 
   - id: markdown
+    # Wait until we review status
+    check_delay: 90
     stalk:
       paths:
         - "**/*.md"
