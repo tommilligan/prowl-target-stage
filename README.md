@@ -10,4 +10,5 @@ Ony one reviewer from each config is required
 ## .prowl.yml
 
 See the `examples/` dir for supported configs
+Non managed PRs should not merged but still respond to comments
 
