@@ -3,29 +3,11 @@
 version: '0.1.0'
 
 targets:
-
-  # Each type of PR has a seperate specification
-  - id: catchall
-    # Just comment on the PR instead of merging
-    dry_run: false
-    # PRs we are interested in
-    stalk:
-      paths:
-        - "**/*"
-      base: master
-    # Conditions to be met
-    pounce:
-      reviewers: []
-
   - id: markdown
-    # Wait until we review status
-    check_delay: 90
     stalk:
       paths:
         - "**/*.md"
       base: master
     pounce:
-      reviewers:
-        - tommilligan
-        - tommilligan-plutoflume
+      reviewers: []
 
