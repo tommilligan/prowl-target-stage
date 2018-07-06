@@ -9,6 +9,7 @@ targets:
         - "**/*.md"
       base: master
     pounce:
+      check_delay: 10
       reviewers: []
       merge_method: merge
 
