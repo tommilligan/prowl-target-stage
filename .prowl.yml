@@ -10,4 +10,14 @@ targets:
       base: master
     pounce:
       reviewers: []
+      merge_method: merge
+
+  - id: markdown
+    stalk:
+      paths:
+        - "**/*.md"
+      base: master
+    pounce:
+      reviewers: []
+      merge_method: squash
 
