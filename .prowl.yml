@@ -10,7 +10,6 @@ targets:
       base: master
     pounce:
       author_implicit_reviewer: true
-      check_delay: 0
       reviewers:
         - tommilligan
       merge_method: merge
