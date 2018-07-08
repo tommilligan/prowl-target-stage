@@ -9,7 +9,7 @@ targets:
         - "**/*.md"
       base: master
     pounce:
-      author_implicit_reviewer: true
+      # author_implicit_reviewer: true
       check_delay: 10
       reviewers:
         - tommilligan
