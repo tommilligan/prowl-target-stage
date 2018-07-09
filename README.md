@@ -13,4 +13,5 @@ See the `examples/` dir for supported configs
 Now supports pagination
 And merge methods!
 Updated to probot 7
+Automerge now has to be specified explicitly
 
