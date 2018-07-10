@@ -9,6 +9,7 @@ targets:
         - "**/*.md"
       base: master
     pounce:
+      action: status
       auto_pounce: true
       author_implicit_reviewer: true
       reviewers:
