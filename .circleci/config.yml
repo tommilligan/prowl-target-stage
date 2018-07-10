@@ -5,13 +5,14 @@ jobs:
       - image: circleci/node:8.11.3-browsers
     steps:
       - checkout
-      - run: sleep 60s
+      - run: sleep 15s
   test:
     docker:
       - image: circleci/node:8.11.3-browsers
     steps:
       - checkout
-      - run: if (( RANDOM % 2 )); then false; fi
+      # - run: if (( RANDOM % 2 )); then false; fi
+      - run: sleep 5s
 workflows:
   version: 2
   build_and_test:
