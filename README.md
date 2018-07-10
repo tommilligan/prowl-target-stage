@@ -14,5 +14,5 @@ Now supports pagination
 And merge methods!
 Updated to probot 7
 Automerge now has to be specified explicitly
-Should get a status update instead of a merge!
+Should get a status update instead of a merge! (and this should block as a required check)
 
