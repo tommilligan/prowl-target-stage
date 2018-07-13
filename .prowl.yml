@@ -15,6 +15,9 @@ targets:
       reviewers:
         - tommilligan
       merge_method: merge
+      not_ready_labels:
+        - WIP
+        - nomerge
 
   - id: code
     stalk:
