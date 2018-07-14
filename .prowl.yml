@@ -12,6 +12,7 @@ targets:
       action: status
       auto_pounce: true
       author_implicit_reviewer: true
+      commit_message_pr_number: true
       reviewers:
         - tommilligan
       merge_method: merge
