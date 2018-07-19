@@ -30,4 +30,7 @@ targets:
         - tommilligan
         - tommilligan-plutoflume
       merge_method: merge
+      not_ready_labels:
+        - WIP
+        - nomerge
 
