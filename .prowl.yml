@@ -26,9 +26,11 @@ targets:
         - "**/*.py"
       base: master
     pounce:
+      author_implicit_reviewer: true
       reviewers:
         - tommilligan
         - tommilligan-plutoflume
+      reviewer_count: 2
       merge_method: merge
       not_ready_labels:
         - WIP
